@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/external/cookie-message",
+    "cookies": {
+      "SESSION": {
+        "equalTo": "session-123"
+      },
+      "USER_ID": {
+        "equalTo": "angrypig"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "message": "cookie success"
+    }
+  }
+}

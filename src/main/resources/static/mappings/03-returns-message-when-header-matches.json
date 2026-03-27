@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/external/header-message",
+    "headers": {
+      "Authorization": {
+        "equalTo": "Bearer test-token"
+      },
+      "X-Client-Id": {
+        "equalTo": "client-001"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "message": "header success"
+    }
+  }
+}

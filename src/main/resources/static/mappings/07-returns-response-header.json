@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/external/header-response"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "X-Trace-Id": "trace-123",
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "message": "ok"
+    }
+  }
+}

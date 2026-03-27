@@ -39,7 +39,7 @@ class ExternalMessageServiceTest {
         String message = externalMessageService.getMessage();
 
         assertThat(message).isEqualTo("wiremock test success");
-        WireMock.verify(getRequestedFor(urlEqualTo("/external/message")));
+        WireMock.verify(getRequestedFor(urlEqualTo("/X")));
     }
 
     @Test

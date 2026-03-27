@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/external/message"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "message": "wiremock test success"
+    }
+  }
+}

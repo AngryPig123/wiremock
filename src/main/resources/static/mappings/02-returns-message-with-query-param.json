@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/external/message",
+    "queryParameters": {
+      "type": {
+        "equalTo": "notice"
+      },
+      "lang": {
+        "equalTo": "ko"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "message": "query param success"
+    }
+  }
+}
